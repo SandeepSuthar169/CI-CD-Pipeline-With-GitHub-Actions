@@ -5,7 +5,7 @@ def greet(name):
 
 
 def add(a,b):
-    return a+b
+    return a + b
 greet("sandeep")  
 print(add(9,5))
 
