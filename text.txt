@@ -5,14 +5,18 @@
 
 2. create <.github>\<workflows> folders in <link.yaml> folder
         folder yaml code strusture
-       1.> -->name:
+       <1.> -->name:
              on:
              jobs: 
 
-2.>
+<2.>
 name: CI demo
 
-on: push
+on: 
+    push:
+      branches:
+        - main
+    pull_request:
 
 jobs:
   lint:
@@ -32,4 +36,17 @@ jobs:
 
       - name: Run flake8
         run: |
-          flake8 app.py
+          flake8 app.py || true
+
+
+
+________________________
+
+1. git branch  :-> main
+
+2. main to mutliplication branch 
+     -> git branch mutliplication
+           -> git branch   ::-> * main
+                                 mutliplication
+     -> git checkout mutliplication  --> Switched to branch 'multiplication'                     
+
