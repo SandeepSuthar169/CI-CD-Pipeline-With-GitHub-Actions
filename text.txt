@@ -1,2 +1,17 @@
 1. create app.py with code 
           -> glake8 app.py
+
+<> :-> folder
+
+2. create <.github>\<workflows> folders in <link.yaml> folder
+        folder yaml code strusture
+       1.> -->name:
+             on:
+             jobs: 
+
+2.>
+name: CI demo
+on: push
+jobs:
+    link:
+        runs-on: ubuntu-latest
