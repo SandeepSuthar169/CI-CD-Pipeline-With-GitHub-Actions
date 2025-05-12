@@ -11,6 +11,8 @@ def mul(a,b):
        return a*b
 
 greet("sandeep")  
-print(add(9,5))
-print(mul(9,8))
+
+if __name__ == "__main__":
+    print(add(9,5))
+    print(mul(9,8))
 
