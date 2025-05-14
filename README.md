@@ -27,8 +27,8 @@ pip (Python package installer)
 ## Installation
 1. Clone the repository:
 
-`git clone https://github.com/SandeepSuthar169/CI-CD-Pipeline-With-GitHub-Actions.git
-cd CI-CD-Pipeline-With-GitHub-Actions`
+```git clone https://github.com/SandeepSuthar169/CI-CD-Pipeline-With-GitHub-Actions.git
+  cd CI-CD-Pipeline-With-GitHub-Actions```
 
 2. Install the required dependencies:
 
