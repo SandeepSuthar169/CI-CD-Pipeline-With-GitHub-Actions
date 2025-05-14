@@ -27,24 +27,32 @@ pip (Python package installer)
 ## Installation
 1. Clone the repository:
 
-```git clone https://github.com/SandeepSuthar169/CI-CD-Pipeline-With-GitHub-Actions.git
-cd CI-CD-Pipeline-With-GitHub-Actions```
+```
+git clone https://github.com/SandeepSuthar169/CI-CD-Pipeline-With-GitHub-Actions.git
+cd CI-CD-Pipeline-With-GitHub-Actions
+```
 
 2. Install the required dependencies:
 
-` pip install -r requirements.txt `
+```
+pip install -r requirements.txt
+```
 
 3. Running the Application
 
 - To execute the application:
-`python app.py`
+```
+python app.py
+```
 
 This will run the main script, which processes the text.txt file and outputs the result.
 
 4. Running Tests
 To run the unit tests:
 
-`python test_example.py`
+```
+python test_example.py
+```
 
 This will execute the tests defined in test_example.py to ensure the application functions as expected.
 ## CI/CD Pipeline with GitHub Actions
